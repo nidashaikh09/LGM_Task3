@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+
+<body>
+    <div class="left-div">
+        
+        <form id="form">
+            <h1 style="color:#cacb77; margin-bottom:20px;">Student Enroll Form</h1>
+            <div class="form-row">
+                <div class="form-group col-md-6">
+                    <label for="inputEmail4" >Name</label>
+                    <input type="text" class="form-control" id="name" placeholder="Name" required>
+                </div>
+                <div class="form-group col-md-6">
+                    <label for="inputPassword4">Email</label>
+                    <input type="email" class="form-control" id="email" placeholder="Email" required>
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="inputAddress">Website</label>
+                <input type="text" class="form-control" id="website" placeholder="Website" required>
+            </div>
+            <div class="form-group">
+                <label for="inputAddress2">Image Link</label>
+                <input type="text" class="form-control" id="imglink" placeholder="Image link">
+            </div>
+            <div class="form-row">
+                <div class="form-group col-md-6">
+                    <label for="inputCity">Skills</label>
+                    <input type="text" class="form-control" id="skills" required>
+                </div>
+                <div class="form-group col-md-4">
+                    <label for="inputState">Gender</label>
+                    <select id="inputState" class="form-control" required>
+                        <option selected>Choose...</option>
+                        <option>Male</option>
+                        <option>Female</option>
+
+                    </select>
+                </div>
+                
+            </div>
+            
+            <button type="submit" class="btn btn-primary">Enroll Student</button>
+        </form>
+    </div>
+    <div class="right-div">
+        <div class="cont" id="cooo">
+           
+        </div>
+    </div>
+    <script src="action.js">
+
+    </script>
+</body>
+
+</html>

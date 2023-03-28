@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@600&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Jost', sans-serif;
+
+}
+
+:root {
+    --white: white;
+    --black: black;
+    --less-black: rgb(21, 21, 21);
+}
+
+.left-div {
+    min-height: 100vh;
+    width: 50vw;
+    background-color: #7f8772d9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+label {
+    color: #cacb77;
+}
+
+form {
+    background-color: #24303c;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.right-div {
+    background-color: black;
+    min-height: 100vh;
+    width: 50vw;
+    border-left: 3px dotted var(--less-black);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+body {
+    display: flex;
+}
+
+.cont {
+    background-color: rgb(178 181 132);
+    min-height: 80vh;
+    width: 40vw;
+    border-radius: 10px;
+
+
+
+
+}
+
+.cardd {
+    min-height: 100px;
+    min-width: 450px;
+    background-color: black;
+    border-radius: 10px;
+    margin: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+img {
+    height: 100px;
+    width: 100px;
+    border-radius: 20px;
+    margin: 20px;
+
+}
+
+.icon-img {
+    display: flex;
+    align-items: center;
+    min-height: 100px;
+
+}
+
+.cardd {
+    display: flex;
+    padding: 20px;
+}
+
+.info-cont {
+    color: white;
+}
+
+.strong {
+    color: #007bff;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #2fc54f;
+    border-color: #0a0a0a;
+}
